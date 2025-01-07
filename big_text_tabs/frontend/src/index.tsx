@@ -1,10 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import MyComponent from "./MyComponent"
+import BigTextTabs from "./MyComponent"
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyComponent />
+    <BigTextTabs />
   </React.StrictMode>,
   document.getElementById("root")
 )
