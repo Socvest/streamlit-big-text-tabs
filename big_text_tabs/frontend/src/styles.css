@@ -1,0 +1,23 @@
+.tab-text-container{
+    display:flex;
+    flex-direction: row;
+    column-gap: 50px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.tab-text{
+    font-size:45px;
+    color:rgba(180, 179, 179, 0.582);
+    cursor: pointer;
+    font-family: Andale Mono, monospace;
+    font-weight: 700;
+}
+
+.tab-text:hover{
+    color:rgb(97, 97, 97);
+}
+
+.tab-text.clicked-tab{
+    color:rgb(88, 88, 88);
+}
